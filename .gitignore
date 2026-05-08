@@ -3,6 +3,8 @@
 
 # Keep this file itself
 !.gitignore
+!.github/
+!.github/**
 
 # Keep durable configuration and instructions
 !AGENTS.md
