@@ -1,0 +1,12 @@
+# Ignore everything by default
+*
+
+# Keep this file itself
+!.gitignore
+
+# Keep durable configuration and instructions
+!AGENTS.md
+!rules/
+!rules/**
+!skills/
+!skills/**
