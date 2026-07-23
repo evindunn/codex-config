@@ -4,6 +4,19 @@
 
 **Global**
 - When asked for a code review, always re-read the relevant files from disk before reviewing them
+- Favor solutions that minimize 3rd party dependencies
+- Favor DRY solutions
+- When creating ai tooling, favor determinisitic python that minimizes token usage
+
+
+**JS Interpreted Languages**
+- Always add a jsdoc-style docstring for every class/function
+- When writing arrow functions, always keep args / callback signature on the first line with the function body on the following lines. Example:
+  ```typescript
+  instance.polls = data.polls.map((poll: any) => {
+    return new AppStatePoll(poll.id, poll.prompt, poll.options)
+  })
+  ```
 
 **Python**
 - Don't ever edit files installed within a virtual environment
