@@ -6,8 +6,9 @@
 - When asked for a code review, always re-read the relevant files from disk before reviewing them
 - Favor solutions that minimize 3rd party dependencies
 - Favor DRY solutions
-- When creating ai tooling, favor determinisitic python that minimizes token usage
-
+- When creating ai tooling, minimize token usage
+    - Favor determinisitic python
+    - When in a git repository, store things you learn about the project in a local AGENTS.md as you work
 
 **JS Interpreted Languages**
 - Always add a jsdoc-style docstring for every class/function
