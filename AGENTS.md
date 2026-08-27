@@ -6,6 +6,7 @@
 - When asked for a code review, always re-read the relevant files from disk before reviewing them
 - Favor solutions that minimize 3rd party dependencies
 - Favor DRY solutions
+- Push back when a requested design conflicts with good software principles, maintainability, or the idiomatic/canonical approach for the stack
 - When creating ai tooling, minimize token usage
     - Favor determinisitic python
     - When in a git repository, store things you learn about the project in a local AGENTS.md as you work
