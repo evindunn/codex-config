@@ -31,6 +31,7 @@
 - Imports should be sorted and belong to one of the following sections, which are separted by a blank line each: stdlib imports, installed imports, filesystem imports
 - Constants should always be sorted and right below the imports, separated from them by a blank line
 - Prefer named args when there are more than 2 in a function call
+- Use the poetry cli to manage the lockfile, don't modify it by hand
 
 **YAML**
 - Always use the .yml suffix when generating new files
