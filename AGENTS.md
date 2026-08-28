@@ -9,7 +9,7 @@
 - Push back when a requested design conflicts with good software principles, maintainability, or the idiomatic/canonical approach for the stack
 - When creating ai tooling, minimize token usage
     - Favor determinisitic python
-    - When in a git repository, store things you learn about the project in a local AGENTS.md as you work
+- When in a git repository and you learn something an LLM would find useful about the repo, offer to store it in a local AGENTS.md
 
 **JS Interpreted Languages**
 - Always add a jsdoc-style docstring for every class/function
@@ -30,6 +30,7 @@
 - Use explicit module-qualified imports for Python packages. Prefer namespaced references like functools.cache and uuid.UUID over importing members directly.
 - Imports should be sorted and belong to one of the following sections, which are separted by a blank line each: stdlib imports, installed imports, filesystem imports
 - Constants should always be sorted and right below the imports, separated from them by a blank line
+- Prefer named args when there are more than 2 in a function call
 
 **YAML**
 - Always use the .yml suffix when generating new files
