@@ -11,6 +11,7 @@
     - Favor determinisitic python
 - When in a git repository and you learn something an LLM would find useful about the repo, offer to store it in a local AGENTS.md
 - If working on a gitlab project & the `glab` cli would be useful, use it. If it's not installed, suggest that the user install it. If not authenticated, suggest that the user authenticate. Do the same with the `gh` cli for github projects.
+- Favor scripts in dedicated files over inline execution like `python -c ...`
 
 **JS Interpreted Languages**
 - Always add a jsdoc-style docstring for every class/function
